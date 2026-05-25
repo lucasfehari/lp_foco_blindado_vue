@@ -1,0 +1,256 @@
+:root {
+  /* Colors - Ultra Minimalist Premium Palette */
+  --color-primary: #0052FF;
+  /* A "Cor Foda" - Azul Elétrico de Alta Conversão (Estilo SaaS Premium) */
+  --color-primary-dark: #003ECC;
+  --color-primary-light: #E5EDFF;
+
+  /* Reduzindo cores de apoio: O Accent agora segue a mesma família para um visual extremamente limpo e focado */
+  --color-accent: #0052FF;
+  --color-accent-dark: #003ECC;
+  --color-accent-light: #E5EDFF;
+
+  --color-bg: #F8FAFC;
+  --color-bg-white: #FFFFFF;
+  --color-bg-gray: #F1F5F9;
+
+  --color-text-main: #0F172A;
+  --color-text-muted: #475569;
+  --color-text-light: #94A3B8;
+  --color-white: #FFFFFF;
+
+  --color-dark-bg: #0F172A;
+  --color-dark-surface: #1E293B;
+
+  /* Typography */
+  --font-family: 'Schibsted Grotesk', sans-serif;
+
+  /* Borders & Radius */
+  --radius-card: 18px;
+  --radius-btn: 50px;
+  --radius-sm: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 20px rgba(44, 62, 40, 0.15);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.1);
+  --shadow-dark: 0 8px 28px rgba(0, 0, 0, 0.42);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-white);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-main);
+  line-height: 0.90;
+}
+
+h1,
+h2 {
+  letter-spacing: -2px;
+  line-height: 0.80;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: clamp(28px, 5vw, 38px);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+p {
+  color: var(--color-text-muted);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+/* Layout Utilities */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-dark {
+  background-color: var(--color-dark-bg);
+  color: var(--color-white);
+}
+
+.section-dark h2,
+.section-dark h3,
+.section-dark p {
+  color: var(--color-white);
+}
+
+/* Única seção com cor completamente diferente (Amarelo Vibrante/Ouro para alta conversão) */
+.section-unique {
+  background-color: #FACC15;
+  color: #0F172A;
+}
+
+.section-unique h2,
+.section-unique p,
+.section-unique .price-big,
+.section-unique .price-sub,
+.section-unique .old-price,
+.section-unique .old-price span {
+  color: #0F172A !important;
+}
+
+.section-unique .tag-dark {
+  background-color: #0F172A;
+  color: #FACC15;
+}
+
+.section-unique .btn {
+  background-color: #0F172A;
+  color: #FFFFFF;
+}
+
+.section-unique .btn:hover {
+  background-color: #1E293B;
+}
+
+.section-unique .seal svg {
+  color: #0F172A;
+}
+
+.section-unique .seal {
+  color: #0F172A;
+}
+
+.section-gray {
+  background-color: var(--color-bg-gray);
+}
+
+.section-accent {
+  background-color: var(--color-accent-light);
+}
+
+/* UI Elements */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 6px 16px;
+  border-radius: var(--radius-btn);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.tag-dark {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--color-primary-light);
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 32px;
+  border-radius: var(--radius-btn);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  box-shadow: var(--shadow-md);
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-dark);
+  background-color: var(--color-primary-dark);
+}
+
+.btn-secondary {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    width: auto;
+    min-width: 300px;
+  }
+}
+
+/* iPhone Emoji Helpers */
+.iphone-emoji-sm {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.iphone-emoji-lg {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  display: inline-block;
+}
