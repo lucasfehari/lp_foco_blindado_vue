@@ -42,6 +42,9 @@
           <p>"Sou disciplinado no trabalho mas nas outras áreas não consigo"</p>
         </div>
       </div>
+      <div class="div-homem-cansado">
+        <img class="img-homem-cansado" src="/img/homem_no_celular.png" alt="Homem cansado">
+      </div>
     </div>
   </section>
 </template>
@@ -93,10 +96,28 @@
   font-style: italic; /* Dá uma cara de 'pensamento' ou 'citação' */
 }
 
+div.div-homem-cansado {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  transform: scale(120%);
+}
+
+img.img-homem-cansado {
+  width: 100%;
+  max-width: 600px;
+  transform: translatey(40px);
+}
+
 /* Responsividade: em telas menores (celulares), a grid passa a ter apenas 1 coluna */
 @media (max-width: 768px) {
   .rumination-grid {
     grid-template-columns: 1fr; /* 1 coluna ocupando todo o espaço */
   }
+  img.img-homem-cansado {
+   transform: translatey(45px);
+}
 }
 </style>

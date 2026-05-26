@@ -3,8 +3,11 @@
     <div class="container">
       
       <div class="agitation-card">
-        <p>Você quer mudar, mas toda vez que tenta, trava. Passa mais uma semana, mais um mês — e a vida continua no mesmo lugar.</p>
-        <p class="bridge">Mas e se em 7 dias você quebrasse esse ciclo com uma prática simples por dia — e finalmente sentisse que está no controle?</p>
+        <div class="agitation-icon-wrapper">
+          <img src="/img/emojis/26a0-fe0f.png" class="iphone-emoji-lg" alt="Alerta" />
+        </div>
+        <p>Você quer mudar, mas toda vez que tenta, trava. Passa mais uma semana, mais um mês e a vida continua no mesmo lugar.</p>
+        <p class="bridge">Mas e se em 7 dias você quebrasse esse ciclo com uma prática simples por dia e finalmente sentisse que está no controle?</p>
       </div>
       
       <div class="benefits-header text-center">
@@ -39,12 +42,31 @@
 
 <style scoped>
 .agitation-card {
+  position: relative;
   background-color: var(--color-dark-surface);
   border-radius: var(--radius-card);
-  padding: 32px;
-  border-left: 6px solid var(--color-accent);
+  padding: 70px 30px 30px;
+  border-bottom: 10px solid var(--color-accent);
   margin-bottom: 50px;
   box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.agitation-icon-wrapper {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-dark-surface);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--color-bg-white);
+  box-shadow: var(--shadow-sm);
+  z-index: 3;
 }
 
 .agitation-card p {
@@ -54,9 +76,9 @@
 }
 
 .agitation-card .bridge {
-  color: var(--color-accent);
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
   font-weight: 700;
-  font-style: italic;
   font-size: 18px;
   margin-bottom: 0;
 }

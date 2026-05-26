@@ -12,7 +12,9 @@ const emojis = [
   '1f4d6', // book
   '1f3ac', // clapper
   '1f381', // gift
-  '274c' // cross mark
+  '274c', // cross mark
+  '26a0-fe0f', // warning sign
+  '26a0' // warning sign fallback
 ];
 
 const dir = path.join(__dirname, 'public', 'img', 'emojis');

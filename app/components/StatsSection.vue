@@ -1,7 +1,6 @@
 <template>
   <section class="section">
     <div class="container text-center">
-      <span class="tag tag-dark">A escala do problema</span>
       <h2>Por que isso acontece com tanta gente?</h2>
       <p class="subtitle">Os dados mostram que você não está sozinho — e que o problema é maior do que parece.</p>
       
@@ -17,16 +16,16 @@
         
         <div class="stat-card">
           <span class="stat-num">3h32</span>
-          <p class="stat-desc">por dia em redes sociais — Brasil em 1º lugar no mundo</p>
+          <p class="stat-desc">por dia em redes sociais Brasil em 1º lugar no mundo</p>
         </div>
         
         <!-- 
           'accent-card' é uma classe extra para destacar este card em específico,
           invertendo as cores (fundo escuro, texto claro).
         -->
-        <div class="stat-card accent-card">
+        <div class="stat-card">
           <span class="stat-num">+67%</span>
-          <p class="stat-desc">de afastamentos por ansiedade em 2024 — novo recorde</p>
+          <p class="stat-desc">de afastamentos por ansiedade em 2024 novo recorde</p>
         </div>
         
         <div class="stat-card">
@@ -83,7 +82,7 @@
 .stat-num {
   display: block;
   font-size: clamp(36px, 6vw, 48px);
-  font-weight: 900;
+  font-weight: 400;
   color: var(--color-primary-dark);
   line-height: 1;
   letter-spacing: -0.04em;

@@ -8,9 +8,8 @@
     <!-- 'text-center' foi criado no estilo global (ou escopado) para alinhar todo o texto e usar Flexbox em coluna -->
     <div class="container text-center">
     
-      
       <!-- Headline forte: clamp() permite que o texto seja responsivo dependendo do tamanho da tela -->
-      <h1>Pare de perder dias inteiros e vença a procrastinação em 7 dias com uma prática por dia</h1>
+      <h1>Pare de perder dias inteiros e <span class="text-gray">vença a procrastinação em 7 dias</span> com uma prática por dia</h1>
       <p class="hero-sub">Sem motivação forçada. Sem técnicas mirabolantes. Só o que funciona na prática.</p>
       
        <div class="reference-badge">
@@ -79,6 +78,10 @@ h1 {
   color: var(--color-primary-dark);
   margin-bottom: 20px;
   max-width: 800px;
+}
+
+.text-gray {
+  color: var(--color-text-muted);
 }
 
 .hero-sub {
