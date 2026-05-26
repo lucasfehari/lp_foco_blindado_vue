@@ -13,7 +13,7 @@
         <!-- Card 1: Guia 7 Dias -->
         <div class="dlv-card">
           <div class="dlv-vis">
-            <img src="/img/Gemini_Generated_Image_8gfotr8gfotr8gfo.png" alt="Guia dos 7 Dias" class="dlv-img-book" />
+            <img src="/img/livro_foco_blindado.png" alt="Guia dos 7 Dias" class="dlv-img-book" />
           </div>
           <!-- Corpo do texto à direita (no desktop) -->
           <div class="dlv-body">
@@ -25,7 +25,7 @@
         <!-- Card 2: Aulas em Vídeo. A classe 'alt' serve para mudar a cor de fundo visualmente. -->
         <div class="dlv-card alt">
           <div class="dlv-vis">
-            <img src="/img/Gemini_Generated_Image_nkvk66nkvk66nkvk.png" alt="Aulas em Vídeo" class="dlv-img-laptop" />
+            <img src="" alt="Aulas em Vídeo" class="dlv-img-laptop" />
           </div>
           <div class="dlv-body">
             <span class="dlv-badge"><img src="/img/emojis/1f3ac.png" class="iphone-emoji-sm" alt="Video"> Aulas em Vídeo</span>
@@ -36,11 +36,11 @@
         <!-- Bônus 1 -->
         <div class="dlv-card">
           <div class="dlv-vis">
-            <img src="/img/Gemini_Generated_Image_8gfotr8gfotr8gfo (1).png" alt="Bônus 1" class="dlv-img-book" />
+            <img src="/img/iphone_retormar_rotina.png" alt="Bônus 1" class="dlv-img-book" />
           </div>
           <div class="dlv-body">
             <span class="dlv-badge bonus"><img src="/img/emojis/1f381.png" class="iphone-emoji-sm" alt="Gift"> Bônus 1 — Como Retomar a Rotina Após Quebrar</span>
-            <p>Quebrou a sequência? Esta aula elimina o padrão "tudo ou nada" e te coloca de volta no trilho — sem culpa, sem recomeçar do zero.</p>
+            <p>Quebrou a sequência? Esta aula elimina o padrão "tudo ou nada" e te coloca de volta no trilho sem culpa, sem recomeçar do zero.</p>
           </div>
         </div>
         
@@ -95,13 +95,12 @@
 
 /* Área visual (esquerda no Desktop, topo no Mobile) */
 .dlv-vis {
-  padding: 40px 24px 0;
   display: flex;
   justify-content: center;
   align-items: flex-end; /* Mantém as imagens 'grudadas' na parte inferior da área visível */
   background: var(--color-bg);
   border-bottom: 1px solid #f0ebe0;
-  min-height: 250px;
+  min-height: 90px;
 }
 
 .dlv-card.alt .dlv-vis {
@@ -149,16 +148,16 @@
 
 /* Imagens */
 .dlv-img-book {
-  width: 180px;
+  width: 170px;
   object-fit: contain;
-  margin-bottom: -10px;
+  margin-bottom: 1,5px;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
 }
 
 .dlv-img-laptop {
-  width: 320px;
+  width: 240px;
   object-fit: contain;
-  margin-bottom: -5px;
+  margin-bottom: -50px;
 }
 
 /* Container para a imagem sobreposta (Bônus 2) */
@@ -187,7 +186,10 @@
     flex-direction: row;
     align-items: stretch;
   }
-  
+  .dlv-img-book {
+   transform: translateY(90px);
+   transform: scale(130%);
+}
   /* Pulo do Gato: Inverte a ordem nos cards pares (nth-child(even)) para ficar texto na esquerda e imagem na direita */
   .dlv-card:nth-child(even) {
     flex-direction: row-reverse;

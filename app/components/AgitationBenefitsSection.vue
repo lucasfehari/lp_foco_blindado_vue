@@ -17,7 +17,7 @@
       <div class="benefits-grid">
         <div class="benefit-card">
           <div class="benefit-icon"><img src="/img/emojis/1f9e0.png" class="iphone-emoji-lg" alt="Brain"></div>
-          <h4>Identificar o gatilho da sua procrastinação — e parar de lutar no escuro</h4>
+          <h4>Identificar o gatilho da sua procrastinação e parar de lutar no escuro</h4>
         </div>
         
         <div class="benefit-card">
