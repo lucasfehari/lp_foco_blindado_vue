@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container text-center">
       <h2>Por que isso acontece com tanta gente?</h2>
-      <p class="subtitle">Os dados mostram que você não está sozinho — e que o problema é maior do que parece.</p>
+      <p class="subtitle">Os dados mostram que você não está sozinho e que o problema é maior do que parece.</p>
       
       <!-- 
         Grid de Estatísticas:

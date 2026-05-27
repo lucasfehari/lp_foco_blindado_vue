@@ -49,8 +49,7 @@
           <!-- composite-img permite que o celular sobreponha o livro usando absolute -->
           <div class="dlv-vis">
             <div class="composite-img">
-              <img src="/img/Gemini_Generated_Image_8gfotr8gfotr8gfo.png" alt="Bônus 2" class="dlv-img-book" />
-              <img src="/img/Gemini_Generated_Image_fh2buifh2buifh2b.png" alt="Celular" class="dlv-img-phone" />
+              <img src="/img/book_rotina_antes_de_dormir.png" alt="Bônus 2" class="dlv-img-book" />
             </div>
           </div>
           <div class="dlv-body">
