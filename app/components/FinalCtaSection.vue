@@ -12,7 +12,7 @@
       </div>
       
       <div class="cta-wrapper">
-        <a href="#comprar" class="btn">QUERO O PROTOCOLO AGORA</a>
+        <a href="https://pay.hotmart.com/S105322046I?bid=1780083391008" class="btn">QUERO O PROTOCOLO AGORA</a>
         
         <div class="seals">
           <span class="seal">

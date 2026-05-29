@@ -42,7 +42,7 @@
             <p class="price-sub">ou 8x de R$8,80 · Acesso imediato</p>
           </div>
           
-          <a href="#comprar" class="btn">QUERO O PROTOCOLO AGORA</a>
+          <a href="https://pay.hotmart.com/S105322046I?bid=1780083391008" class="btn">QUERO O PROTOCOLO AGORA</a>
         </div>
       </div>
     </div>

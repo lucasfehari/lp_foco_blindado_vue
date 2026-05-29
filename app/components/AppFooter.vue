@@ -5,7 +5,7 @@
       <p class="subtitle">O mundo é de quem faz. Comece hoje.</p>
       
       <div class="cta-wrapper">
-        <a href="#comprar" class="btn btn-secondary">QUERO O PROTOCOLO AGORA por R$67</a>
+        <a href="https://pay.hotmart.com/S105322046I?bid=1780083391008" class="btn btn-secondary">QUERO O PROTOCOLO AGORA por R$67</a>
       </div>
       
       <div class="footer-bottom">
