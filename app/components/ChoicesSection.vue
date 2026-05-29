@@ -9,7 +9,7 @@
           <div class="ch-label"><img src="/img/emojis/274c.png" class="iphone-emoji-sm" alt="Bad"> Opção 1</div>
           <div class="ch-body">
             <h4>Continuar do mesmo jeito</h4>
-            <p>Adiando, perdendo dias — e prometendo que "semana que vem começa de verdade".</p>
+            <p>Adiando, perdendo dias e prometendo que "semana que vem começa de verdade".</p>
           </div>
         </div>
         
@@ -17,7 +17,7 @@
           <div class="ch-label"><img src="/img/emojis/2705.png" class="iphone-emoji-sm" alt="Good"> Opção 2</div>
           <div class="ch-body">
             <h4>Mudar hoje mesmo</h4>
-            <p>Protocolo em mãos, primeira prática hoje — em menos de 10 minutos.</p>
+            <p>Protocolo em mãos, primeira prática hoje em menos de 20 minutos.</p>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
       <p class="subtitle">O mundo é de quem faz. Comece hoje.</p>
       
       <div class="cta-wrapper">
-        <a href="#comprar" class="btn btn-secondary">QUERO O PROTOCOLO AGORA — R$67</a>
+        <a href="#comprar" class="btn btn-secondary">QUERO O PROTOCOLO AGORA por R$67</a>
       </div>
       
       <div class="footer-bottom">

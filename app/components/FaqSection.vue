@@ -44,7 +44,7 @@
               1. Funciona para quem já tentou outros métodos?
               <span class="faq-arr">▼</span>
             </summary>
-            <p class="faq-a">Sim. O Protocolo não é mais um conteúdo motivacional — é um método prático baseado em como o impulso funciona no corpo e na mente. Você vai entender o que vem antes da procrastinação, e isso muda tudo.</p>
+            <p class="faq-a">Sim. O Protocolo não é apenas mais um conteúdo motivacional. Ele é um método prático baseado em como o impulso funciona no corpo e na mente. Você vai entender o que vem antes da procrastinação, e isso muda tudo.</p>
           </details>
           
           <details class="faq-item">
@@ -52,7 +52,7 @@
               2. Quanto tempo por dia preciso dedicar?
               <span class="faq-arr">▼</span>
             </summary>
-            <p class="faq-a">Cada prática leva entre 10 e 20 minutos. O protocolo é feito para caber na rotina real — não para criar mais uma tarefa impossível.</p>
+            <p class="faq-a">Cada prática leva entre 10 e 20 minutos. O protocolo é feito para caber na rotina real, sem criar mais uma tarefa impossível.</p>
           </details>
           
           <details class="faq-item">
@@ -68,7 +68,7 @@
               4. E se eu quebrar a sequência no meio?
               <span class="faq-arr">▼</span>
             </summary>
-            <p class="faq-a">É exatamente para isso que existe o Bônus 1. O método te ensina que quebrar é normal — o que importa é o que você faz depois.</p>
+            <p class="faq-a">É exatamente para isso que existe o Bônus 1. O método te ensina que quebrar é normal. O que importa é o que você faz depois.</p>
           </details>
           
           <details class="faq-item">
@@ -112,8 +112,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--color-primary);
-  color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-bg-white);
   font-weight: 900;
   font-size: 16px;
   display: flex;

@@ -7,8 +7,7 @@
       <div class="recap-wrapper">
         <div class="recap-visual">
           <div class="composite-img">
-            <img src="/img/Gemini_Generated_Image_nkvk66nkvk66nkvk.png" alt="Notebook" class="comp-laptop" />
-            <img src="/img/Gemini_Generated_Image_fh2buifh2buifh2b.png" alt="Celular" class="comp-phone" />
+            <img src="/img/produtos_juntos.png" alt="Produtos juntos" class="img_produtos_juntos" />
           </div>
         </div>
         
@@ -73,10 +72,6 @@
   padding: 0 20px 20px;
 }
 
-.comp-laptop {
-  width: 100%;
-  filter: drop-shadow(0 10px 30px rgba(0,0,0,0.15));
-}
 
 .comp-phone {
   position: absolute;
@@ -85,6 +80,10 @@
   width: 25%;
   transform: rotate(3deg);
   filter: drop-shadow(0 15px 40px rgba(0,0,0,0.25));
+}
+.img_produtos_juntos{
+ width: 650px;
+
 }
 
 .recap-card {

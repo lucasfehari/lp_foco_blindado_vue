@@ -19,7 +19,7 @@
         </li>
         <li>
           <div class="ck">✓</div>
-          <span>Quer clareza e controle — não mais um método motivacional</span>
+          <span>Quer clareza e controle, e não mais um método motivacional</span>
         </li>
         <li>
           <div class="ck">✓</div>

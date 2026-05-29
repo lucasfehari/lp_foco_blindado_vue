@@ -47,7 +47,7 @@
     -->
     <div class="container mockup-container">
       <div class="mockup-wrapper">
-        <img src="/img/iphone.png" alt="Celular Checklist" class="phone-mockup" />
+        <img src="/img/livro_foco_blindado.png" alt="Celular Checklist" class="phone-mockup" />
       </div>
     </div>
   </section>

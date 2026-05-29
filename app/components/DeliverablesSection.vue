@@ -18,14 +18,14 @@
           <!-- Corpo do texto à direita (no desktop) -->
           <div class="dlv-body">
             <span class="dlv-badge"><img src="/img/emojis/1f4d6.png" class="iphone-emoji-sm" alt="Book"> Guia dos 7 Dias</span>
-            <p>Uma prática por dia durante 7 dias. Com espaço para escrever, checklist para riscar e campo de reflexão em cada dia. Use no celular ou imprima. Feito para executar — não para guardar na gaveta.</p>
+            <p>Uma prática por dia durante 7 dias. Com espaço para escrever, checklist para riscar e campo de reflexão em cada dia. Use no celular ou imprima. Feito para executar, não para guardar na gaveta.</p>
           </div>
         </div>
         
         <!-- Card 2: Aulas em Vídeo. A classe 'alt' serve para mudar a cor de fundo visualmente. -->
         <div class="dlv-card alt">
           <div class="dlv-vis">
-            <img src="" alt="Aulas em Vídeo" class="dlv-img-laptop" />
+            <img src="/img/macbook_video_aulas.png" alt="Aulas em Vídeo" class="dlv-img-laptop" />
           </div>
           <div class="dlv-body">
             <span class="dlv-badge"><img src="/img/emojis/1f3ac.png" class="iphone-emoji-sm" alt="Video"> Aulas em Vídeo</span>
@@ -36,10 +36,10 @@
         <!-- Bônus 1 -->
         <div class="dlv-card">
           <div class="dlv-vis">
-            <img src="/img/iphone_retormar_rotina.png" alt="Bônus 1" class="dlv-img-book" />
+            <img src="/img/book_retomar_a_rotina_apos_quebrar.png" alt="Bônus 1" class="dlv-img-book" />
           </div>
           <div class="dlv-body">
-            <span class="dlv-badge bonus"><img src="/img/emojis/1f381.png" class="iphone-emoji-sm" alt="Gift"> Bônus 1 — Como Retomar a Rotina Após Quebrar</span>
+            <span class="dlv-badge bonus"><img src="/img/emojis/1f381.png" class="iphone-emoji-sm" alt="Gift"> Bônus 1: Como Retomar a Rotina Após Quebrar</span>
             <p>Quebrou a sequência? Esta aula elimina o padrão "tudo ou nada" e te coloca de volta no trilho sem culpa, sem recomeçar do zero.</p>
           </div>
         </div>
@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="dlv-body">
-            <span class="dlv-badge bonus"><img src="/img/emojis/1f381.png" class="iphone-emoji-sm" alt="Gift"> Bônus 2 — Rotina Antes de Dormir</span>
+            <span class="dlv-badge bonus"><img src="/img/emojis/1f381.png" class="iphone-emoji-sm" alt="Gift"> Bônus 2: Rotina Antes de Dormir</span>
             <p>Protocolo noturno em 3 fases para desacelerar a mente, desligar o modo reativo e preparar o dia seguinte antes mesmo de acordar.</p>
           </div>
         </div>
@@ -147,16 +147,16 @@
 
 /* Imagens */
 .dlv-img-book {
-  width: 170px;
+  width: 270px;
   object-fit: contain;
   margin-bottom: 1,5px;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.15));
 }
 
 .dlv-img-laptop {
-  width: 240px;
+  width: 100%;
   object-fit: contain;
-  margin-bottom: -50px;
+  margin-bottom: 10px;
 }
 
 /* Container para a imagem sobreposta (Bônus 2) */
@@ -193,6 +193,16 @@
   .dlv-card:nth-child(even) {
     flex-direction: row-reverse;
   }
+  .dlv-img-laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    transform: scale(580%);
+    transform: translateY(30px);
+    object-fit: contain;
+    margin-bottom: 3.5rem;
+}
   
   /* Ajuste de tamanhos e bordas para o visual horizontal */
   .dlv-vis {

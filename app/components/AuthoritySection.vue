@@ -5,7 +5,7 @@
       
       <div class="authority-content">
         <div class="auth-photo">
-          <img src="/img/14834143637404656196.jpg.jpeg" alt="Djeison Staudt" />
+          <img src="/img/foto_djeison.png" alt="Djeison Staudt" />
         </div>
         
         <div class="auth-text">

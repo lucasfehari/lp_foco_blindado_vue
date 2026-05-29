@@ -7,7 +7,8 @@
       <div class="price-box">
         <p class="old-price">De <span>R$338,00</span></p>
         <div class="price-big">R$67</div>
-        <p class="price-sub">ou 8x de R$8,80 · Acesso no e-mail imediatamente</p>
+        <p class="price-sub">ou 8x de R$8,80</p>
+        <p class="price-sub">Acesso no e-mail imediatamente</p>
       </div>
       
       <div class="cta-wrapper">
@@ -92,6 +93,6 @@
 .seal svg {
   width: 16px;
   height: 16px;
-  color: var(--color-primary);
+  color: var(--color-text-muted);
 }
 </style>
